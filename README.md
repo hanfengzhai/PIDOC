@@ -1,2 +1,2 @@
-# Physics-Informed Neural Control
-Physics-Informed Neural Control (PINC), a deep learning method for controlling nonlinear chaos
+# Physics-Informed Deep Operator Control
+Physics-Informed Deep Operator Control (PIDOC), a deep learning method for controlling nonlinear chaos
