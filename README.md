@@ -24,15 +24,15 @@ PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general f
 If you use our package please considering cite:
 ~~~
 @Article{math10030453,
-        AUTHOR = {Zhai, Hanfeng and Sands, Timothy},
-        TITLE = {Controlling Chaos in Van Der Pol Dynamics Using Signal-Encoded Deep Learning},
-        JOURNAL = {Mathematics},
-        VOLUME = {10},
-        YEAR = {2022},
-        NUMBER = {3},
-        ARTICLE-NUMBER = {453},
-        URL = {https://doi.org/10.3390/math10030453},
-        ISSN = {2227-7390},
-        DOI = {10.3390/math10030453}
-        }
+AUTHOR = {Zhai, Hanfeng and Sands, Timothy},
+TITLE = {Controlling Chaos in Van Der Pol Dynamics Using Signal-Encoded Deep Learning},
+JOURNAL = {Mathematics},
+VOLUME = {10},
+YEAR = {2022},
+NUMBER = {3},
+ARTICLE-NUMBER = {453},
+URL = {https://doi.org/10.3390/math10030453},
+ISSN = {2227-7390},
+DOI = {10.3390/math10030453}
+}
 ~~~
