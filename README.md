@@ -44,7 +44,9 @@ If the model start to train, you are ready to go! Try tunning the hyperparameter
 
 Based on the general framework of PINNs, PIDOC can be used for control all based on the signal-encoded (physics-informed) loss
 
-<center>*L = MSE<sub>NN</sub> +  MSE<sub>I</sub> + &lambda; MSE<sub>D</sub>*</center>
+<center>
+ *L = MSE<sub>NN</sub> +  MSE<sub>I</sub> + &lambda; MSE<sub>D</sub>*
+</center>
  
 * where *MSE<sub>NN</sub> = MSE(x<sub>prediction</sub>, x<sub>training</sub>)* is the neural network error given the training data.
  
