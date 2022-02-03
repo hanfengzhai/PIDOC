@@ -34,4 +34,5 @@ If you use our package please considering cite:
         URL = {https://doi.org/10.3390/math10030453},
         ISSN = {2227-7390},
         DOI = {10.3390/math10030453}
+        }
 ~~~
