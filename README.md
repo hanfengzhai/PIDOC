@@ -44,18 +44,19 @@ If the model start to train, you are ready to go! Try tunning the hyperparameter
 
 Based on the general framework of PINNs, PIDOC can be used for control all based on the signal-encoded (physics-informed) loss
 
-<center>L = MSE<sub>NN</sub> +  MSE<sub>I</sub> + &lambda; MSE<sub>D</sub></center>
+<center>*L = MSE<sub>NN</sub> +  MSE<sub>I</sub> + &lambda; MSE<sub>D</sub>*</center>
  
-* where MSE<sub>NN</sub> = MSE(x<sub>prediction</sub>, x<sub>training</sub>) is the neural network error given the training data.
+* where *MSE<sub>NN</sub> = MSE(x<sub>prediction</sub>, x<sub>training</sub>)* is the neural network error given the training data.
  
-* where MSE<sub>I</sub> = MSE(x<sub>prediction</sub>(0), x<sub>control</sub>(0)) is the control error given the training data.
+* where *MSE<sub>I</sub> = MSE(x<sub>prediction</sub>(0), x<sub>control</sub>(0))* is the control error given the training data.
  
-* where MSE<sub>D</sub> = MSE(x<sub>prediction</sub>, x<sub>control</sub>) is the neural network error given the training data.
+* where *MSE<sub>D</sub> = MSE(x<sub>prediction</sub>, x<sub>control</sub>)* is the neural network error given the training data.
  
 and &lambda; is the Lagrangian multiplier to enforce control (proved in our paper that enlarging which doesn't work for better control).
  
 ## What's the limitation?
 
+It is clearly stated in our [paper](https://www.mdpi.com/2227-7390/10/3/453) that PIDOC has an evident drawback: enlarging the systems nonlinearity will cause the reduced control quality.
 
 ***
 
