@@ -19,6 +19,8 @@ PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general f
 
 ***
 
+### Cite PIDOC
+
 If you use our package please considering cite:
 ~~~
 @Article{math10030453,
