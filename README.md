@@ -3,11 +3,14 @@ Physics-Informed Deep Operator Control (PIDOC), a deep learning method for contr
 
 ![schematic view of Physics-Informed Deep Operator Control](/doc/PINC_schematic.jpg)
 
-* **What is PIDOC?**
+## What is PIDOC?
 
 PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general framework can be used for control nonlinear dynamics, achieved by the encoded control trajectory in the losses. Right now, PIDOC has only been used for control the [van der Pol systems](https://www.sciencedirect.com/topics/mathematics/van-der-pols-equation). However, if carefully tuned, it can be applied to more complex systems.
 
-* **How to use PIDOC?**
+## How to use PIDOC?
+
+
+
 
 ***
 
