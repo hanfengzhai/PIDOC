@@ -9,7 +9,24 @@ PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general f
 
 ## How to use PIDOC?
 
-To play with our simple example cases, you need to first download and convert your tensorflow to version ~~~1.x~~~.
+To play with our simple example cases, you need to first download and convert your [tensorflow](https://www.tensorflow.org/) to version [1.x](https://www.tensorflow.org/api_docs/python/tf/compat/v1/); or directly download it through
+
+~~~
+pip install tensorflow==1.15.0
+~~~
+
+Then download our repo:
+~~~
+git clone https://github.com/hanfengzhai/PIDOC
+~~~
+
+Open the simple case of the van der Pol dynamics:
+
+~~~
+cd vanderPol
+~~~
+
+
 
 ## Why does PIDOC work?
 
