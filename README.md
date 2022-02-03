@@ -42,7 +42,9 @@ If the model start to train, you are ready to go! Try tunning the hyperparameter
 
 ## Why does PIDOC work?
 
- h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+Based on the general framework of PINNs, PIDOC can be used for control all based on the loss
+
+L = MSE<sub>NN</sub> +  MSE<sub>I</sub> + &lambda; MSE<sub>D</sub>
  
  
 ## What's the limitation?
