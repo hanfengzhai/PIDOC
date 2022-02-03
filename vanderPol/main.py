@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import scipy.io
 import time
 import timeit
+from mpi4py import MPI
 # import tensorflow_probability as tfp
 
 # tf.disable_v2_behavior()
