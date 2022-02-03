@@ -31,7 +31,6 @@ cd vanderPol
 ## Why does PIDOC work?
 
 
-$$ax + b$$
 
 ## What's the limitation?
 
