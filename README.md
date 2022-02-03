@@ -26,7 +26,19 @@ Open the simple case of the van der Pol dynamics:
 cd vanderPol
 ~~~
 
+Run the basic example case with the benchmark case of 10% added noise:
 
+~~~
+python main.py
+~~~
+
+Or run with MPI using multiple cores:
+
+~~~
+mpirun -np 20 python main.py
+~~~
+
+If the model start to train, you are ready to go!
 
 ## Why does PIDOC work?
 
