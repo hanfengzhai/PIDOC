@@ -17,7 +17,7 @@ pip install tensorflow==1.15.0
 
 Then download our repo:
 ~~~
-git clone https://github.com/hanfengzhai/PIDOC
+git clone https://github.com/hanfengzhai/PIDOC.git
 ~~~
 
 Open the simple case of the van der Pol dynamics:
