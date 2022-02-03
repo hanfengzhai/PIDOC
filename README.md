@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # [Physics-Informed Deep Operator Control](https://arxiv.org/abs/2112.14707)
 Physics-Informed Deep Operator Control (PIDOC), a deep learning method for controlling nonlinear chaos.
 
@@ -38,11 +39,11 @@ Or run with MPI using multiple cores:
 mpirun -np 20 python main.py
 ~~~
 
-If the model start to train, you are ready to go!
+If the model start to train, you are ready to go! Try tunning the hyperparameters and change the training data (explore [data](https://github.com/hanfengzhai/PIDOC/data)) to play it around!
 
 ## Why does PIDOC work?
 
-
+The \(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
 ## What's the limitation?
 
