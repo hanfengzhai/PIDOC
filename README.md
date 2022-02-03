@@ -9,7 +9,7 @@ PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general f
 
 ## How to use PIDOC?
 
-
+To play with our simple example cases, you need to first download and convert your tensorflow to version ~~~1.x~~~.
 
 ## Why does PIDOC work?
 
