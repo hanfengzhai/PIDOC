@@ -149,7 +149,7 @@ if __name__ == "__main__":
                 #  30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 
     # Set NN Structure
     
-    data = scipy.io.loadmat('train_10.mat')
+    data = scipy.io.loadmat('../data/train_10.mat')
     t_obtain = data['t'] # 
     X_obtain = data['x_10'] # 
     t_star = t_obtain[0:3000]
