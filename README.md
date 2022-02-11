@@ -35,7 +35,7 @@ python main.py
 Or run with MPI using multiple cores:
 
 ~~~
-mpirun -np 20 python main.py
+mpirun -np 20 python benchmark_main.py
 ~~~
 
 If the model start to train, you are ready to go! Try tunning the hyperparameters and change the training data (explore [data](https://github.com/hanfengzhai/PIDOC/tree/main/data)) to play it around!
