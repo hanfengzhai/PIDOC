@@ -14,7 +14,10 @@ To play with our simple example cases, you need to first download and convert yo
 ~~~
 pip install tensorflow==1.15.0
 ~~~
-
+If you already have ```tf v.2.``` preinstalled, you can considering uninstalling:
+~~~
+pip uninstall tensorflow==2.7.0
+~~~
 Then download our repo:
 ~~~
 git clone https://github.com/hanfengzhai/PIDOC.git
