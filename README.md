@@ -38,10 +38,12 @@ python main.py
 Or run with MPI using multiple cores:
 
 ~~~
-mpirun -np 20 python benchmark_main.py
+mpirun -np 20 python main.py
 ~~~
 
-If the model start to train, you are ready to go! Try tunning the hyperparameters and change the training data (explore [data](https://github.com/hanfengzhai/PIDOC/tree/main/data)) to play it around!
+If the model start to train, you are ready to go! Try tunning the hyperparameters and change the training data (explore [data](https://github.com/hanfengzhai/PIDOC/tree/main/data)) to play it around! 
+
+* Note that ```main.py``` is only a tutorial template code for playing around, you can also check the [Notebook version](https://github.com/hanfengzhai/PIDOC/blob/main/vanderPol/vanderPol_Fig4_benchmark.ipynb). The uploading of the full version is incomplete and we will finish it soon.
 
 ## Why does PIDOC work?
 
