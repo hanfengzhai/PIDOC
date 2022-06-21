@@ -1,6 +1,6 @@
 # [Physics-Informed Deep Operator Control](https://arxiv.org/abs/2112.14707)
 
-> **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). 
+> :warning: **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). 
 
 Physics-Informed Deep Operator Control (PIDOC), a deep learning method for controlling nonlinear chaos.
 
