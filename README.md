@@ -2,7 +2,7 @@
 
 > :warning: **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). **This is not an actual control implementation**. It is rather a simple simulation of the control process. We propose this as an interesting inspiration for using PINN to simulate the control process.
 
-Simulating control process using signal based deep learning.
+*Simulating control process using signal based deep learning*.
 
 ![schematic view of Physics-Informed Deep Operator Control](/doc/PINC_schematic.jpg)
 
