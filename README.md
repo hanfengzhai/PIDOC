@@ -8,7 +8,7 @@ Simulating control process using signal based deep learning.
 
 ## What is PIDOC?
 
-PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general framework can be used for control nonlinear dynamics, achieved by the encoded control trajectory in the losses. Right now, PIDOC has only been used for control the [van der Pol systems](https://www.sciencedirect.com/topics/mathematics/van-der-pols-equation) ([Zhai & Sands, 2022](https://doi.org/10.3390/math10030453)). However, if carefully tuned, it can be applied to more complex systems.
+PIDOC is based on [PINNs](https://maziarraissi.github.io/PINNs/), is a general framework can be used for simulating nonlinear dynamics control, achieved by the encoded control trajectory in the losses. PIDOC has only been used for control the [van der Pol systems](https://www.sciencedirect.com/topics/mathematics/van-der-pols-equation) ([Zhai & Sands, 2022](https://doi.org/10.3390/math10030453)).
 
 ## How to use PIDOC?
 
