@@ -64,7 +64,7 @@ and &lambda; is the Lagrangian multiplier to enforce control (proved in our pape
  
 ## What's the limitation?
 
-It is clearly stated in our [paper](https://www.mdpi.com/2227-7390/10/3/453) that PIDOC has an evident drawback: enlarging the systems nonlinearity will cause the reduced control quality.
+It is clearly stated in our [paper](https://www.mdpi.com/2227-7390/10/3/453) that PIDOC has an evident drawback: enlarging the systems nonlinearity will cause the reduced control quality. Also, this framework is not for actual experimental control implementation. It is simply a simulation-based idea for using deep learning to model control.
 
 ***
 
