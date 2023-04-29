@@ -1,8 +1,6 @@
-# [Physics-Informed Deep Operator Control](https://arxiv.org/abs/2112.14707)
+# [Physics-Informed Deep Operator Control](https://doi.org/10.3390/s22176362)
 
-> :warning: **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). 
-
-Physics-Informed Deep Operator Control (PIDOC), a deep learning method for controlling nonlinear chaos.
+> :warning: **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). **This is not an actual control implementation**. It is rather a simple simulation of the control process. We propose this as an interesting inspiration for using PINN to simulate the control process.
 
 ![schematic view of Physics-Informed Deep Operator Control](/doc/PINC_schematic.jpg)
 
