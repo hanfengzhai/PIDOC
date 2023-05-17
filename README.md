@@ -1,16 +1,15 @@
-# [Physics-Informed Deep Operator Control](https://doi.org/10.3390/s22176362)
+# PIDOC
 
-> :warning: **Note:** this is part of the work developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). **This is not an actual control implementation**. It is rather a simple simulation of the control process. We propose this as an interesting inspiration for using PINN (or general vanilla NN) to simulate the control process.
+> **Note:** this is a project developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). **This is not an control implementation**. It discussed the simulations of the control process.
 
 *Simulating control process using signal based deep learning*.
 
-![schematic view of Physics-Informed Deep Operator Control](/doc/PINC_schematic.jpg)
 
-## What is PIDOC?
+## Intro
 
 PIDOC uses [PINNs](https://maziarraissi.github.io/PINNs/) to **simulate** nonlinear dynamics control process, achieved by the encoded control trajectory in the losses. PIDOC has only been used for control the [van der Pol systems](https://www.sciencedirect.com/topics/mathematics/van-der-pols-equation) ([Zhai & Sands, 2022](https://doi.org/10.3390/math10030453)).
 
-## How to use PIDOC?
+## Use
 
 To play with our simple example cases, you need to first download and convert your [tensorflow](https://www.tensorflow.org/) to version [1.x](https://www.tensorflow.org/api_docs/python/tf/compat/v1/); ([Google Colab](https://colab.research.google.com/) is a great platform for it) or directly download it through
 
