@@ -1,9 +1,6 @@
-# PIDOC
+# Simulating dynamics control using neural networks
 
 > **Note:** this is a project developed from the course paper of [MAE 6280](https://classes.cornell.edu/browse/roster/FA20/class/MAE/6280). **This is not an control implementation**. It discussed the simulations of the control process.
-
-*Simulating control process using signal based deep learning*.
-
 
 ## Intro
 
