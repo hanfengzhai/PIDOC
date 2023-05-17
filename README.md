@@ -34,11 +34,6 @@ Run the basic example case with the benchmark case of 10% added noise:
 python main.py
 ~~~
 
-Or run with MPI using multiple cores:
-
-~~~
-mpirun -np 20 python main.py
-~~~
 
 If the model start to train, you are ready to go! Try tunning the hyperparameters and change the training data (explore [data](https://github.com/hanfengzhai/PIDOC/tree/main/data)) to play it around! 
 
@@ -60,7 +55,7 @@ and &lambda; is the Lagrangian multiplier to enforce control (proved in our pape
  
 ## Limitation
 
-It is clearly stated in our [paper](https://www.mdpi.com/2227-7390/10/3/453) that PIDOC has an evident drawback: enlarging the systems nonlinearity will cause the reduced control quality. Also, this framework is not for actual experimental control implementation. It is simply a simulation-based idea for using deep learning to model control.
+It is clearly stated in the [paper](https://www.mdpi.com/2227-7390/10/3/453): enlarging the systems nonlinearity will cause the reduced control quality. Also, this framework is not for actual experimental control implementation. It is simply a simulation-based idea for using deep learning to model control.
 
 ***
 
