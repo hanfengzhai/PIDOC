@@ -44,7 +44,7 @@ If the model start to train, you are ready to go! Try tunning the hyperparameter
 
 * Note that ```main.py``` is only a tutorial template code for playing around, you can also check the [Notebook version](https://github.com/hanfengzhai/PIDOC/blob/main/vanderPol/vanderPol_Fig4_benchmark.ipynb). The uploading of the full version is incomplete and we will finish it soon.
 
-## Why does PIDOC work?
+## Constrained optimization
 
 Based on the general framework of PINNs, PIDOC can be used for control all based on the signal-encoded (physics-informed) loss
 
@@ -58,7 +58,7 @@ Based on the general framework of PINNs, PIDOC can be used for control all based
  
 and &lambda; is the Lagrangian multiplier to enforce control (proved in our paper that enlarging which doesn't work for better control).
  
-## What's the limitation?
+## Limitation
 
 It is clearly stated in our [paper](https://www.mdpi.com/2227-7390/10/3/453) that PIDOC has an evident drawback: enlarging the systems nonlinearity will cause the reduced control quality. Also, this framework is not for actual experimental control implementation. It is simply a simulation-based idea for using deep learning to model control.
 
