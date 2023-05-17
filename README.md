@@ -61,7 +61,6 @@ It is clearly stated in the [paper](https://www.mdpi.com/2227-7390/10/3/453): en
 
 ### Cite PIDOC
 
-If you use our package please considering cite:
 ~~~
 @Article{math10030453,
 AUTHOR = {Zhai, Hanfeng and Sands, Timothy},
