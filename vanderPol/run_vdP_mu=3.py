@@ -43,6 +43,7 @@ class DeepvdP:
         self.x_res = self.x_control - self.x_pred
         self.x_dd_res = self.x_dd_control - self.x_dd_pred
 
+        # Signal-encoded control
         self.control = self.x_res + self.x_dd_res
 
         self.loss = 1 * tf.reduce_sum(tf.square(self.control)) + tf.reduce_sum(tf.square(self.ICs)) + \
